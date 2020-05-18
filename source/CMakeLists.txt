@@ -24,4 +24,6 @@ target_link_libraries(tests
   ${OPENGL_LIBRARIES}
   )
 
+ add_executable(vec2 vec2.cpp)
+ add_executable(vec2hp vec2.hpp)
 
